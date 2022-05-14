@@ -1,3 +1,7 @@
-@import 'tailwindcss/base.css';
-@import 'tailwindcss/utilities.css';
-@import 'tailwindcss/components.css';
+// Import tailwind css
+@import 'tailwindcss/tailwind.css';
+
+// PrimeNG css
+@import 'primeicons/primeicons.css';
+@import 'primeng/resources/themes/tailwind-light/theme.css';
+@import 'primeng/resources/primeng.min.css';
