@@ -10,6 +10,9 @@ import { DynamicTableComponent } from './dynamic-table.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    DynamicTableComponent
   ]
 })
 export class DynamicTableModule { }

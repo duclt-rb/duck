@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ExampleComponent } from './example.component';
+import { DynamicFormModule } from '../components/dynamic-form/dynamic-form.module';
 
 
 
@@ -9,7 +10,8 @@ import { ExampleComponent } from './example.component';
     ExampleComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    DynamicFormModule
   ],
   exports: [ExampleComponent]
 })
