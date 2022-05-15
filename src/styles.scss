@@ -1,11 +1,13 @@
 // Import tailwind css
 @import 'tailwindcss/tailwind.css';
 
-// PrimeNG css
+// Import primeng css
 @import 'primeicons/primeicons.css';
 @import 'primeng/resources/themes/tailwind-light/theme.css';
 @import 'primeng/resources/primeng.min.css';
 
-* {
-    @apply focus:outline-none;
+@layer base {
+    * {
+        @apply focus:outline-none;
+    }
 }

@@ -1,10 +1,20 @@
 ::ng-deep {
     .p-breadcrumb {
-        @apply border-0 py-2 px-4;
+        @apply border-0 py-2 px-5 bg-transparent;
 
-        ul li .p-menuitem-text,
-        ul li.p-breadcrumb-chevron {
-            @apply text-sm;
+        ul > li {
+            .p-menuitem-link {
+                @apply focus:shadow-none hover:shadow-none hover:bg-slate-200 focus:bg-slate-200 px-2 py-1;
+            }
+    
+            .p-menuitem-text {
+                @apply text-sm leading-6;
+            }
+    
+            &.p-breadcrumb-chevron {
+                @apply text-xs mx-0;
+            }
         }
+        
     }
 }

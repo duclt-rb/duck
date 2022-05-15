@@ -1,0 +1,23 @@
+.sidebar {
+    @apply px-4 bg-gray-800 min-h-full transition-all delay-200;
+
+    .label {
+        @apply text-white transition-all delay-100;
+    }
+
+    &.show {
+        @apply w-64;
+
+        .label {
+            @apply opacity-100;
+        }
+    }
+
+    &.hide {
+        @apply w-20;
+
+        .label {
+            @apply opacity-0;
+        }
+    }
+}

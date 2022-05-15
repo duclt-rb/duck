@@ -3,12 +3,14 @@
         <ng-content select="a-sidebar"></ng-content>
     </div>
 
-    <div class="flex-1">
-        <ng-content select="a-header"></ng-content>
-        <ng-content select="a-breadcrumb"></ng-content>
+    <div class="flex-1 min-h-full">
+        <main class="flex flex-col h-full bg-slate-50">
+            <ng-content select="a-header"></ng-content>
+            <ng-content select="a-breadcrumb"></ng-content>
 
-        <main class="px-4">
-            <ng-content></ng-content>
+            <div class="mx-7 mb-7 border rounded-lg h-full">
+                <ng-content></ng-content>
+            </div>
         </main>
     </div>
 </div>
