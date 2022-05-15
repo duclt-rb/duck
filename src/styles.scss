@@ -5,3 +5,7 @@
 @import 'primeicons/primeicons.css';
 @import 'primeng/resources/themes/tailwind-light/theme.css';
 @import 'primeng/resources/primeng.min.css';
+
+* {
+    @apply focus:outline-none;
+}

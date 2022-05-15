@@ -5,6 +5,7 @@ import { DynamicFormModule } from '../components/dynamic-form/dynamic-form.modul
 import { HeaderModule } from '../components/header/header.module';
 import { SidebarModule } from '../components/sidebar/sidebar.module';
 import { LayoutModule } from '../components/layout/layout.module';
+import { BreadcrumbModule } from '../components/breadcrumb/breadcrumb.module';
 
 
 
@@ -17,7 +18,8 @@ import { LayoutModule } from '../components/layout/layout.module';
     DynamicFormModule,
     HeaderModule,
     SidebarModule,
-    LayoutModule
+    LayoutModule,
+    BreadcrumbModule
   ],
   exports: [ExampleComponent]
 })

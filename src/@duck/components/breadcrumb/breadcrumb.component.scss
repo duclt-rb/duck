@@ -1,0 +1,10 @@
+::ng-deep {
+    .p-breadcrumb {
+        @apply border-0 py-2 px-4;
+
+        ul li .p-menuitem-text,
+        ul li.p-breadcrumb-chevron {
+            @apply text-sm;
+        }
+    }
+}
